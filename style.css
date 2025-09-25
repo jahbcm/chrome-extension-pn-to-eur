@@ -1,0 +1,29 @@
+style.css
+body {
+      font-family: Arial, sans-serif;
+      width: 350px; /* Adjust width as needed */
+      padding: 10px;
+    }
+
+    .converter-row {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      flex-wrap: nowrap; /* Keep inputs in the same row */
+    }
+
+    input[type="number"] {
+      flex: 0 1 0;
+      min-width: 120px;      /* Prevent overflow in small container */
+      padding: 5px 8px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .separator {
+      font-weight: bold;
+      font-size: 18px;
+      user-select: none;
+    }
